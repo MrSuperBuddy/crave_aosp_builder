@@ -152,7 +152,7 @@ jobs:
         "AOSP")
           export PROJECTFOLDER="/crave-devspaces/AOSP"
           export PROJECTID="35"
-          export REPO_INIT="repo init -u https://android.googlesource.com/platform/manifest.git -b master --git-lfs --depth=1"
+          export REPO_INIT="repo init -u https://android.googlesource.com/platform/manifest.git -b android-16.0.0_r2 --git-lfs --depth=1"
         ;;
         esac
 
